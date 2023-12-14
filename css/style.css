@@ -21,9 +21,8 @@ body{
 
 
 .container-header{
-    max-width: 1000px;
+    max-width: 80%;
 
-    border: 2px solid black;
     /*  */
     justify-content: space-between;
     
@@ -38,6 +37,10 @@ body{
 
     padding: 10px;
     
+}
+.container-header .icone{
+    padding: 5px;
+    text-align: center;
 }
 
 .container-header .Generi{
@@ -77,5 +80,54 @@ main .showcase .row {
     text-decoration: line-through;
 } 
 
+.pd-bottom{
+    padding-bottom: 30px;
+}
 
 /* fine parte main */
+
+.footer-section{
+    background-color: #1A1A1A;
+    color:white;
+    
+
+}
+
+.footer-data{
+
+    max-width: 1000px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 40px;
+}
+
+.footer-section .company name{
+    justify-content: space-between;
+    max-width: 80%;
+
+    border: 2px solid white;
+    /*  */
+    justify-content: space-between;
+    
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 20px;
+
+}
+
+.footer-data {
+    max-width: 80%;
+
+    border: 2px solid black;
+    /*  */
+    justify-content: space-between;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* aggiustare il footer */
