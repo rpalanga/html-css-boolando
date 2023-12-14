@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* regola di reset */
+
+.row{
+    display: flex;
+    /* prova*/
+}
+/* regole generali */
+
+.nav-footer{
+    background-color: #ED722E;
+}
+
+
+.container-header{
+    max-width: 1000px;
+
+    border: 2px solid black;
+    /*  */
+    justify-content: space-between;
+    
+    margin-right: auto;
+    margin-left: auto;
+
+    color: white;
+}
+    
+.container-header .Logo img{
+    width: 100px;
+
+    padding: 10px;
+    
+}
+
+.container-header .Generi{
+
+    padding: 10px;
+    text-align: center;
+}
+
+/* inzio main */
+
+main .showcase .row {
+    gap: 33%;
+    
+}
+
+
+
+
+.sizing img{
+
+    max-width: 200px;
+
+}
