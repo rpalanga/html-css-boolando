@@ -48,6 +48,63 @@ body{
     padding: 10px;
     text-align: center;
 }
+/* inzio prove immagini di background */
+
+.double-image{
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+}
+.double-image .first-img{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    object-fit: contain;
+    
+}
+
+.double-image:hover .second-img{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    object-fit: contain;
+    transition: 2s;
+}
+.product{
+    /* position: absolute; */
+    
+    
+}
+
+
+
+/* 
+.container-images .img-1 .double-image{
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    
+}
+.sizig .double-image .first-img {
+    position: absolute;
+
+    display: none;
+    top: 0%;
+    bottom: 0%;
+    z-index: 99;
+}
+.sizig .double-image:hover {
+    display: inline;
+} */
+
+
+
+/* inzio prove immagini di background */
+
 
 /* inzio main */
 
@@ -68,6 +125,7 @@ main .showcase .row {
 .sizing img{
 
     max-width: 300px;
+    
 
 }
 
@@ -95,19 +153,16 @@ main .showcase .row {
 
 .footer-data{
 
-    max-width: 1000px;
     
-    margin-left: auto;
-    margin-right: auto;
 
     padding: 40px;
 }
 
-.footer-section .company name{
+.footer-section .company-name{
     justify-content: space-between;
-    max-width: 80%;
+    width: 80%;
 
-    border: 2px solid white;
+    
     /*  */
     justify-content: space-between;
     
@@ -119,15 +174,22 @@ main .showcase .row {
 }
 
 .footer-data {
-    max-width: 80%;
+    width: 80%;
 
-    border: 2px solid black;
-    /*  */
+    
+    
     justify-content: space-between;
     
     margin-right: auto;
     margin-left: auto;
 }
 
+
+
+.info{
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 0.7em;
+}
 
 /* aggiustare il footer */
