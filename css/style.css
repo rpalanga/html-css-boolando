@@ -81,31 +81,6 @@ body{
 }
 
 
-
-/* 
-.container-images .img-1 .double-image{
-    width: 300px;
-    position: relative;
-    display: inline-block;
-    
-}
-.sizig .double-image .first-img {
-    position: absolute;
-
-    display: none;
-    top: 0%;
-    bottom: 0%;
-    z-index: 99;
-}
-.sizig .double-image:hover {
-    display: inline;
-} */
-
-
-
-/* inzio prove immagini di background */
-
-
 /* inzio main */
 
 main .showcase .row {
@@ -192,4 +167,3 @@ main .showcase .row {
     font-size: 0.7em;
 }
 
-/* aggiustare il footer */
